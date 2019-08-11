@@ -17,7 +17,7 @@ which is one of the most well-known cellular automata.
 
 ## Usage
 Some usage examples can be found in the `examples` directory.  
-I may eventaully add actual documentation, but for now there's just the
+I may eventually add actual documentation, but for now there's just the
 docstrings in the source code.
 
 ## Licence
