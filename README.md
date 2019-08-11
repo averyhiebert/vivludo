@@ -15,6 +15,12 @@ I think it might be possible to modify it for GPU acceleration
 *Vivludo* is Esperanto for "Life Game", in reference to Conway's Game of Life,
 which is one of the most well-known cellular automata.
 
+## Installation
+
+`pip install vivludo`
+
+Requires Python 3.5 or greater.
+
 ## Usage
 Some usage examples can be found in the `examples` directory.  
 I may eventually add actual documentation, but for now there's just the
