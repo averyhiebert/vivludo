@@ -1,0 +1,6 @@
+*.pyc
+*.swp
+vivludo.egg-info
+build
+examples/images/*
+dist
