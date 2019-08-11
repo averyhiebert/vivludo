@@ -12,6 +12,7 @@ setup(name="vivludo",
       author_email="averyhiebert@gmail.com",
       license="MIT",
       packages=["vivludo"],
+      url="https://github.com/averyhiebert/vivludo",
       install_requires=[
         "numpy",
         "scipy",
