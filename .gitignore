@@ -2,5 +2,6 @@
 *.swp
 vivludo.egg-info
 build
-examples/images/*
+examples/images/*.png
+examples/images/*.gif
 dist
