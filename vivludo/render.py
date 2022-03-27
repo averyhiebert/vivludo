@@ -21,7 +21,7 @@ def get_palette(num_colors):
         return default_palette[:num_colors]
     else:
         deficit = num_colors - len(default_palette)
-        return num_colors + [[255,255,255]]*deficit
+        return default_palette + [[255,255,255]]*deficit
 
 def scale_image(ar,n):
     '''Given a 2d numpy array, return a version of the array created by

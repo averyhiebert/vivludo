@@ -4,7 +4,7 @@ with open("README.md","r") as f:
     long_description = f.read()
 
 setup(name="vivludo",
-      version="0.0.1",
+      version="0.0.2",
       description="A cellular automaton library.",
       long_description=long_description,
       long_description_content_type="text/markdown",

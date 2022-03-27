@@ -104,8 +104,7 @@ def anneal():
     ann.set_state(np.random.randint(0,2,500*500).reshape(500,500))
     for i in range(50):
         ann.step()
-    save_image(ann.copy_state(),colors=[[100,0,120],[150,0,170]],
-        filename="images/anneal.png")
+    save_image(ann.copy_state(),colors=2,filename="images/anneal.png")
 
 def majority_vote():
     vote = LifeLike("B5678/S45678",edges="wrap")
